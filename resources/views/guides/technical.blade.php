@@ -45,9 +45,8 @@
             <p>Ekstensi: <code>pdo_sqlite</code>, <code>sqlite3</code>, <code>fileinfo</code>, <code>gd</code>, <code>mbstring</code>. GD hanya untuk sampul PNG seeder. Zona waktu <code>Asia/Jakarta</code>, locale <code>id</code>, di-set di <code>AppServiceProvider</code>.</p>
 
             <h2 id="php7430">PHP 7.4.30</h2>
-            <p>Brief minta PHP 7.4.30. Mac ini M4, Homebrew-nya sudah tidak punya PHP 7.4. Cabang itu EOL 28 Nov 2022. Yang ada di <code>/opt/homebrew/bin/php</code> cuma 8.5.9, Laravel 8 tidak jalan.</p>
-            <p>Yang kepasang XAMPP 7.4.33. Itu rilis terakhir 7.4 (3 Nov 2022), setelah 7.4.30. Paket Mac untuk 7.4.30 tidak ada. Binary XAMPP-nya Intel (<code>x86_64</code>), di M4 lewat Rosetta.</p>
-            <p>Tetap PHP 7.4. Laravel 8 nerima (<code>^7.3|^8.0</code>). Di VPS pilihannya juga cuma "PHP 7.4", tidak ada 7.4.30.</p>
+            <p>PHP 7.4.30 tidak kepasang. Mac ini M4, Homebrew sudah tidak punya PHP 7.4 karena EOL 28 Nov 2022. Yang ada di <code>/opt/homebrew/bin/php</code> cuma 8.5.9, Laravel 8 tidak jalan di situ.</p>
+            <p>Yang bisa dipasang XAMPP 7.4.33, rilis terakhir 7.4 (3 Nov 2022). Paket 7.4.30 untuk Mac sudah tidak ada. Binary-nya Intel (<code>x86_64</code>), di M4 lewat Rosetta. Di VPS pilihannya juga cuma "PHP 7.4".</p>
 
             <h2 id="boot">Menyalakan</h2>
             <p>Perintah dijalankan di folder proyek Skyreach. Pilihan di atas mengganti langkah database.</p>

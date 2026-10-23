@@ -26,11 +26,9 @@ Shell yang sudah terbuka sebelum `PATH` diubah masih bisa memegang PHP 8.5.9. Bu
 
 ## PHP 7.4.30
 
-Brief minta PHP 7.4.30. Mac ini M4, Homebrew-nya sudah tidak punya PHP 7.4. Cabang itu EOL 28 Nov 2022. Yang ada di `/opt/homebrew/bin/php` cuma 8.5.9, Laravel 8 tidak jalan.
+PHP 7.4.30 tidak kepasang. Mac ini M4, Homebrew sudah tidak punya PHP 7.4 karena EOL 28 Nov 2022. Yang ada di `/opt/homebrew/bin/php` cuma 8.5.9, Laravel 8 tidak jalan di situ.
 
-Yang kepasang XAMPP 7.4.33. Itu rilis terakhir 7.4 (3 Nov 2022), setelah 7.4.30. Paket Mac untuk 7.4.30 tidak ada. Binary XAMPP-nya Intel (`x86_64`), di M4 lewat Rosetta.
-
-Tetap PHP 7.4. Laravel 8 nerima (`^7.3|^8.0`). Di VPS pilihannya juga cuma "PHP 7.4", tidak ada 7.4.30.
+Yang bisa dipasang XAMPP 7.4.33, rilis terakhir 7.4 (3 Nov 2022). Paket 7.4.30 untuk Mac sudah tidak ada. Binary-nya Intel (`x86_64`), di M4 lewat Rosetta. Di VPS pilihannya juga cuma "PHP 7.4".
 
 Ekstensi yang dipakai: `pdo_sqlite`, `sqlite3`, `fileinfo`, `gd`, `mbstring`. `gd` hanya untuk sampul PNG yang dibuat seeder.
 
